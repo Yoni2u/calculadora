@@ -6,11 +6,11 @@
 }
 
 body{
-    min-height: 100vh;
-    background: url('descarga.jpg') no-repeat center center fixed;
-    background-color: rgb(4, 3, 80) ;
+    height: 100vh;
+    background: url('descarga.jpg') no-repeat center center/cover;
+    background-color: rgb(4, 3, 80);
     display: grid;
-    place-items: center;
+    place-items: center; 
 }
 
 .calculadora{
